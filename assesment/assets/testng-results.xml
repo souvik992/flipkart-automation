@@ -2,28 +2,28 @@
 <testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-15T19:16:57Z" name="Test Suite for Buildout" finished-at="2024-07-15T19:18:07Z" duration-ms="69931">
+  <suite started-at="2024-07-23T18:44:40Z" name="Test Suite for Buildout" finished-at="2024-07-23T18:45:30Z" duration-ms="49285">
     <groups>
     </groups>
-    <test started-at="2024-07-15T19:16:57Z" name="Test Cases for Buildout" finished-at="2024-07-15T19:18:07Z" duration-ms="69931">
+    <test started-at="2024-07-23T18:44:40Z" name="Test Cases for Buildout" finished-at="2024-07-23T18:45:30Z" duration-ms="49285">
       <class name="demo.TestCases">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@2ccca26f]" started-at="2024-07-16T00:46:57Z" name="startBrowser" finished-at="2024-07-16T00:47:03Z" duration-ms="5285" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@2ccca26f]" started-at="2024-07-24T00:14:40Z" name="startBrowser" finished-at="2024-07-24T00:14:50Z" duration-ms="9517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="testCase01()[pri:0, instance:demo.TestCases@2ccca26f]" started-at="2024-07-16T00:47:03Z" name="testCase01" finished-at="2024-07-16T00:47:22Z" duration-ms="19574" status="PASS">
+        <test-method signature="testCase01()[pri:1, instance:demo.TestCases@2ccca26f]" started-at="2024-07-24T00:14:50Z" name="testCase01" description="Verify the count of items with less than or equal to 4 stars when sorting done by Popularity" finished-at="2024-07-24T00:15:06Z" duration-ms="15800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase01 -->
-        <test-method signature="testCase02()[pri:0, instance:demo.TestCases@2ccca26f]" started-at="2024-07-16T00:47:22Z" name="testCase02" finished-at="2024-07-16T00:47:42Z" duration-ms="19896" status="PASS">
+        <test-method signature="testCase02()[pri:1, instance:demo.TestCases@2ccca26f]" started-at="2024-07-24T00:15:06Z" name="testCase02" description="Printing the Titles and discount % of items with more than 17% discount of Iphone" finished-at="2024-07-24T00:15:14Z" duration-ms="8783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase02 -->
-        <test-method signature="testCase03()[pri:0, instance:demo.TestCases@2ccca26f]" started-at="2024-07-16T00:47:42Z" name="testCase03" finished-at="2024-07-16T00:48:07Z" duration-ms="24557" status="PASS">
+        <test-method signature="testCase03()[pri:1, instance:demo.TestCases@2ccca26f]" started-at="2024-07-24T00:15:14Z" name="testCase03" description="Search &#039;Coffee Mug&#039;, select 4 stars and above, and print the Title and image URL of the 5 items with highest number of reviews" finished-at="2024-07-24T00:15:29Z" duration-ms="14272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase03 -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@2ccca26f]" started-at="2024-07-16T00:48:07Z" name="endTest" finished-at="2024-07-16T00:48:07Z" duration-ms="586" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@2ccca26f]" started-at="2024-07-24T00:15:29Z" name="endTest" finished-at="2024-07-24T00:15:30Z" duration-ms="695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
